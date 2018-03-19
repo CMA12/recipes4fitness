@@ -19,6 +19,7 @@ gem 'bootsnap', require: false
 
 # =============== Authentications =============
 gem 'devise'
+gem "pundit"
 # =============================================
 
 group :development do
