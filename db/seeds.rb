@@ -12,7 +12,13 @@ UserMeal.destroy_all
 
 puts "Creating Recipes...."
 
-Recipe.create(name: "Greek Salad", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
+Recipe.create(name: "Greek Salad", calories: 342.0, fat: 3.0, saturated_fat: 2.0, carbohydrates: 34.0, sugar: 12.0, cholesterol: 12.0, sodium: 2.0)
+Recipe.create(name: "Bolognese", calories: 534.0, fat: 20.0, saturated_fat: 5.0, carbohydrates: 123.0, sugar: 3.0, cholesterol: 5.0, sodium: 6.0)
 
+Ingredient.create(name: "Potato", calories: 77.0, fat: 0.1, saturated_fat: 0.0, carbohydrates: 17.0, sugar: 0.0, cholesterol: 0.0, sodium: 0.0)
+Ingredient.create(name: "Steak", calories: 234.0, fat: 20.1, saturated_fat: 10.0, carbohydrates: 0.0, sugar: 0.0, cholesterol: 1.0, sodium: 2.0)
+Ingredient.create(name: "Salmon", calories: 187.0, fat: 14.1, saturated_fat: 5.0, carbohydrates: 0.0, sugar: 0.0, cholesterol: 0.5, sodium: 0.2)
+Ingredient.create(name: "Carrot", calories: 45.0, fat: 0.0, saturated_fat: 0.0, carbohydrates: 17.0, sugar: 0.0, cholesterol: 0.0, sodium: 0.0)
+Ingredient.create(name: "Parmigiano-Reggiano", calories: 431.0, fat: 29.1, saturated_fat: 17.0, carbohydrates: 17.0, sugar: 0.0, cholesterol: 0.088, sodium: 0.016)
 
 puts "Successful Seeding!!"
