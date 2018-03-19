@@ -1,6 +1,6 @@
 class BreakfastRecipe < ApplicationRecord
-  belongs_to :recipes
+  belongs_to :day_meals
+  belongs_to :user_meal
 
   has_many :day_meals
-
 end
