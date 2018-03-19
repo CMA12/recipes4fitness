@@ -1,0 +1,9 @@
+
+<% @recipes.each do |recipe| %>
+
+<h1><%= recipe.name %></h1>
+<h2>Calories: <%=recipe.calories%> kcal</h2>
+<h2>Fat:<%=recipe.fat%> g</h2>
+<h2>Saturated Fat:<%=recipe.saturated_fat%> g</h2>
+<h2>Carbs:<%=recipe.carbohydrates%> g</h2>
+<% end %>
