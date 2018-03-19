@@ -17,6 +17,10 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'bootsnap', require: false
 
+# =============== Authentications =============
+gem 'devise'
+# =============================================
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
