@@ -20,6 +20,7 @@ gem 'bootsnap', require: false
 # =============== Authentications =============
 gem 'devise'
 gem "pundit"
+gem 'omniauth-openid', github: 'intridea/omniauth-openid'
 # =============================================
 
 group :development do
