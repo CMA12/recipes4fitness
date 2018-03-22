@@ -6,5 +6,8 @@ initialize_calendar = function() {
   })
 };
 
-$(document).on('turbolinks:load', initialize_calendar);
+// jQuery(document).ready(function($) {
+// $(document).foundation();
+// });
+// $(document).on('turbolinks:load', initialize_calendar);
 

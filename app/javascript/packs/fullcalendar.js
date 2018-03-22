@@ -4,6 +4,10 @@
  * (c) 2018 Adam Shaw
  */
 
+ import {momentum} from './moment'
+
+
+function fullcalendar(){
 (function webpackUniversalModuleDefinition(root, factory) {
   if(typeof exports === 'object' && typeof module === 'object')
     module.exports = factory(require("moment"), require("jquery"));
@@ -15009,6 +15013,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /***/ })
 /******/ ]);
 });
+}
 
-
+export { fullcalendar };
 

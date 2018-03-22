@@ -1,5 +1,7 @@
 .simple-calendar {
-  .day {}
+  .day {
+    border-right: 1px solid lightgrey;
+  }
 
   .wday-0 {
     height: 200px;
@@ -31,7 +33,7 @@
   }
 
   .today {
-    background-color: blue;
+    opacity: 0.8;
   }
   .past {}
   .future {}
