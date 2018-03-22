@@ -9,10 +9,9 @@
         <hr>
       </div>
         <div class="profile-options">
-          <p>Profile</p>
-          <p>Following</p>
-          <p>Followers</p>
-          <p>Settings</p>
+          <p><%= link_to "Followers", user_path(current_user) %></p>
+          <p><%= link_to "Following", user_path(current_user) %></p>
+          <p><%= link_to "Settings", user_path(current_user) %></p>
         </div>
     </div>
 
@@ -27,6 +26,7 @@
           <p> <%= @user.age %></p>
         </div>
         <div>
+          <hr>
           <h4>Sex</h4>
           <p> <%= @user.sex %></p>
         </div>
