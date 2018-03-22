@@ -1,0 +1,56 @@
+<div class="container-fluid side-margin">
+  <div class="row margin-left">
+    <!-- LEFT SIDE -->
+    <div class="col-xs-3 col-md-3 col-sm-3 sticky card-author-container">
+      <div class="card-user">
+          <div class="center">
+            <img class="user-img">
+          </div>
+        <hr>
+      </div>
+        <div class="profile-options">
+          <p>Profile</p>
+          <p>Following</p>
+          <p>Followers</p>
+          <p>Settings</p>
+        </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="col-xs-8 col-md-8 col-sm-8 front">
+      <div class="profile-page-right">
+        <!-- User informations -->
+        <h3><%= @user.email %></h3>
+        <hr>
+        <div>
+          <h4>Age</h4>
+          <p> <%= @user.age %></p>
+        </div>
+        <div>
+          <h4>Sex</h4>
+          <p> <%= @user.sex %></p>
+        </div>
+        <div>
+          <hr>
+          <h4>Weight</h4>
+          <p><%= @user.weight %> Kg</p>
+        </div>
+        <hr>
+        <div>
+          <h4>Height</h4>
+          <p> <%= @user.height %> cm</p>
+        </div>
+        <div>
+          <hr>
+          <h4>Excercise</h4>
+          <p><%= @user.excercise %> times a week</p>
+        </div>
+        <hr>
+        <div>
+          <h4>Main meal</h4>
+          <p> <%= @user.main_meal %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
