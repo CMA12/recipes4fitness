@@ -1,6 +1,8 @@
 .simple-calendar {
+  width: 70%;
   .day {
     border-right: 1px solid lightgrey;
+    width: 10%;
   }
 
   .wday-0 {
@@ -35,14 +37,25 @@
   .today {
     opacity: 0.8;
   }
-  .past {}
-  .future {}
+  .past {
+    background-color: grey;
+  }
+  .future {
+
+  }
 
   .start-date {}
 
-  .prev-month {}
-  .next-month { }
-  .current-month {}
+  .prev-month {
 
-  .has-events {}
+  }
+  .next-month {
+  }
+  .current-month {
+
+  }
+
+  .has-events {
+
+  }
 }

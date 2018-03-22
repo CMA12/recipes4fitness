@@ -4,6 +4,7 @@ class MeetingsController < ApplicationController
   # GET /meetings
   # GET /meetings.json
   def index
+    @show_navbar = true
     @meetings = Meeting.all
   end
 
