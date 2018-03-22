@@ -1,4 +1,5 @@
 
+
 <div class="wrapper-calendar">
     <div class="container-calendar">
 
@@ -39,8 +40,10 @@
         <h4>All our recipes:</h4>
         <div class="recipes-selection">
           <% @recipes.each do |recipe| %>
-          <div>
-            <%= recipe.name %>
+          <div class="drag-drop">
+            <p>
+              <%= recipe.name %>
+            </p>
           </div>
           <% end %>
         </div>
@@ -50,7 +53,9 @@
       <div class="container-monthly-calendar">
         <div>
           <%= month_calendar start_time: :my_date, events: @meetings do |date, meetings| %>
-            <%= date.day %>
+            <div class="container-calendar">
+              <%= date.day %>
+            </div>
             <% meetings.each do |meeting| %>
               <div>
                 <%= meeting.name %>
@@ -65,3 +70,17 @@
 
 
 </div>
+
+
+<div class="calendar">
+  <h1>hi</h1>
+</div>
+
+
+
+
+
+
+
+
+

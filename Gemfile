@@ -18,6 +18,12 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'bootsnap', require: false
 
+# =============== DRAG N DROP =================
+source 'https://rails-assets.org' do
+  gem 'rails-assets-interact'
+end
+#==============================================
+
 # =============== Authentications =============
 gem 'devise'
 gem "pundit"
@@ -38,3 +44,4 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
