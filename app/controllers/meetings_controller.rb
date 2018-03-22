@@ -5,6 +5,7 @@ class MeetingsController < ApplicationController
   # GET /meetings.json
   def index
     @show_navbar = true
+    @recipes = Recipe.all
     @meetings = Meeting.all
   end
 

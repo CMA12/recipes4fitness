@@ -1,0 +1,28 @@
+
+.wrapper-calendar{
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+
+
+.container-calendar{
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.add-recipe-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.recipes-selection{
+  display:flex;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-y:scroll;
+  height: 50%;
+}
+
+
+
