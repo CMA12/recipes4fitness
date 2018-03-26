@@ -1,6 +1,4 @@
 class RecipesController < ApplicationController
-
-
   def index
     @show_navbar = true
     @recipes = Recipe.all
@@ -9,6 +7,4 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
   end
-
-
 end
