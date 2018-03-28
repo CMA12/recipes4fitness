@@ -1,8 +1,7 @@
 //! moment.js
-var moment = require('moment');
-moment().format();
 
 function momentum(){
+
 ;(function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
@@ -4507,6 +4506,6 @@ hooks.HTML5_FMT = {
 return hooks;
 
 })));
-}
+};
 
 export { momentum };

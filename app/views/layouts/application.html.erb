@@ -23,10 +23,15 @@
       <%= render 'shared/navbar_checkout' %>
     <% end %>
 
-    <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
 
+    <%= yield %>
+
+
+
     <%= render 'shared/footer' %>
+
   </body>
 </html>
+

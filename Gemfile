@@ -18,6 +18,12 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'bootsnap', require: false
 
+# =============== DRAG N DROP =================
+source 'https://rails-assets.org' do
+  gem 'rails-assets-interact'
+end
+#==============================================
+
 # =============== Authentications =============
 gem 'devise'
 gem "pundit"
@@ -26,6 +32,7 @@ gem "pundit"
 
 # =============== CALENDAR ====================
 gem "simple_calendar", "~> 2.0"
+gem "fullcalendar"
 # =============================================
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -38,3 +45,4 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
