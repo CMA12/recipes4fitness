@@ -14,6 +14,9 @@ User.destroy_all
 puts "Creating Recipes...."
 
 
+User.create(email: "Penetrator@lewagon.com", password: "password", age: 20, sex: "Male", weight: 65, height: 180, excercise: 3, main_meal: "lunch")
+
+
 Recipe.create(name: "Greek Salad", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
 Recipe.create(name: "Greek Salad2", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
 Recipe.create(name: "Greek Salad3", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
@@ -53,7 +56,6 @@ Recipe.create(name: "Greek Salad", calories: 342, fat: 3, saturated_fat: 2, carb
 Recipe.create(name: "Greek Salad", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
 Recipe.create(name: "Greek Salad", calories: 342, fat: 3, saturated_fat: 2, carbohydrates: 34, sugar: 12, cholesterol: 12, sodium: 2)
 
-User.create(email: "Penetrator", password: "password", age: 20, sex: "Male", weight: 65, height: 180, excercise: 3, main_meal: "lunch")
 
 
 Recipe.create(name: "Greek Salad", calories: 342.0, fat: 3.0, saturated_fat: 2.0, carbohydrates: 34.0, sugar: 12.0, cholesterol: 12.0, sodium: 2.0)
