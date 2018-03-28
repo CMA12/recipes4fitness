@@ -13,7 +13,7 @@ User.destroy_all
 
 puts "Creating Recipes...."
 
-User.create(email: "Penetrator", password: "password", age: 20, sex: "Male", weight: 65, height: 180, excercise: 3, main_meal: "lunch")
+User.create(email: "Penetrator@lewagon.com", password: "password", age: 20, sex: "Male", weight: 65, height: 180, excercise: 3, main_meal: "lunch")
 
 Recipe.create(name: "Greek Salad", calories: 342.0, fat: 3.0, saturated_fat: 2.0, carbohydrates: 34.0, sugar: 12.0, cholesterol: 12.0, sodium: 2.0)
 Recipe.create(name: "Bolognese", calories: 534.0, fat: 20.0, saturated_fat: 5.0, carbohydrates: 123.0, sugar: 3.0, cholesterol: 5.0, sodium: 6.0)
