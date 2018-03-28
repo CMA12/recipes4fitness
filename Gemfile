@@ -32,6 +32,7 @@ gem "pundit"
 
 # =============== CALENDAR ====================
 gem "simple_calendar", "~> 2.0"
+gem "fullcalendar"
 # =============================================
 group :development do
   gem 'web-console', '>= 3.3.0'

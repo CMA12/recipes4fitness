@@ -1149,6 +1149,10 @@ chalk@^2.0.1, chalk@^2.3.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chartkick@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/chartkick/-/chartkick-2.3.3.tgz#f26f4f77098e28f2b1c673887750a783d076644b"
+
 chokidar@^2.0.0, chokidar@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.0.2.tgz#4dc65139eeb2714977735b6a35d06e97b494dfd7"

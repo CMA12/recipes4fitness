@@ -1,13 +1,20 @@
 import "bootstrap";
 
+import { picker } from "./date_range_picker"
+
+picker();
+
 import { momentum } from "./moment";
 
 momentum();
 
-// import { fullcalendar } from "./fullcalendar";
+import { fullcalendar } from "./fullcalendar";
 
-// fullcalendar();
+fullcalendar();
 
+
+
+//====================================
 
 // import { dragging } from "./draggable";
 
@@ -17,8 +24,8 @@ momentum();
 
 // draggingTryTwo();
 
-import { xyz } from "./draggable";
+// import { xyz } from "./draggable";
 
-xyz();
+// xyz();
 
 // import { initialization } from "./full_calendar";

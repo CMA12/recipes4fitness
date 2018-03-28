@@ -67,6 +67,7 @@ GEM
       thor (~> 0.14)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
+    fullcalendar (3.8.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (0.9.5)
@@ -205,6 +206,7 @@ DEPENDENCIES
   devise
   figaro
   font-awesome-sass (~> 4.7)
+  fullcalendar
   jbuilder (~> 2.0)
   jquery-rails
   listen (~> 3.0.5)
