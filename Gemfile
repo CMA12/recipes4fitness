@@ -7,6 +7,7 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.1.5'
 gem 'redis'
+gem 'jquery-rails'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
@@ -17,12 +18,22 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'bootsnap', require: false
 
+# =============== DRAG N DROP =================
+source 'https://rails-assets.org' do
+  gem 'rails-assets-interact'
+end
+#==============================================
+
 # =============== Authentications =============
 gem 'devise'
 gem "pundit"
-gem 'omniauth-openid', github: 'intridea/omniauth-openid'
+#gem 'omniauth-openid', github: 'intridea/omniauth-openid'
 # =============================================
 
+# =============== CALENDAR ====================
+gem "simple_calendar", "~> 2.0"
+gem "fullcalendar"
+# =============================================
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
@@ -34,3 +45,4 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+

@@ -68,6 +68,13 @@ ActiveRecord::Schema.define(version: 40180369115014) do
     t.index ["day_meals_id"], name: "index_meal_planners_on_day_meals_id"
   end
 
+  create_table "meetings", force: :cascade do |t|
+    t.string "name"
+    t.datetime "start_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "recipe_ingredients", force: :cascade do |t|
     t.bigint "recipes_id"
     t.bigint "ingredients_id"
