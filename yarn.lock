@@ -1627,6 +1627,10 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
+datepicker@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/datepicker/-/datepicker-0.0.0.tgz#9c2001fbcb1938abc180d42fc082b62d3a061369"
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -2312,7 +2316,15 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullcalendar@^3.9.0:
+fullcalendar-scheduler@^1.9.4:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/fullcalendar-scheduler/-/fullcalendar-scheduler-1.9.4.tgz#15acc98aa0f2b80330b1e93cc768343404827b92"
+  dependencies:
+    fullcalendar "~3.9.0"
+    jquery "2 - 3"
+    moment "^2.20.1"
+
+fullcalendar@^3.9.0, fullcalendar@~3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.9.0.tgz#b608a9989f3416f0b1d526c6bdfeeaf2ac79eda5"
   dependencies:
@@ -3041,6 +3053,14 @@ isobject@^3.0.0, isobject@^3.0.1:
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+jQuery@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/jQuery/-/jQuery-1.7.4.tgz#f32dc5c85a7044ee864b4443b9ee45f9478ba137"
+
+jquery-ui@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
 
 "jquery@2 - 3", jquery@^3.3.1:
   version "3.3.1"

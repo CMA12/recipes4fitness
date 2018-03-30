@@ -19,9 +19,7 @@ gem 'webpacker'
 gem 'bootsnap', require: false
 
 # =============== DRAG N DROP =================
-source 'https://rails-assets.org' do
-  gem 'rails-assets-interact'
-end
+
 #==============================================
 
 # =============== Authentications =============
@@ -32,7 +30,6 @@ gem "pundit"
 
 # =============== CALENDAR ====================
 gem "simple_calendar", "~> 2.0"
-gem "fullcalendar"
 # =============================================
 group :development do
   gem 'web-console', '>= 3.3.0'
