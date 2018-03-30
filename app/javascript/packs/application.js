@@ -1,31 +1,42 @@
 import "bootstrap";
 
-import { picker } from "./date_range_picker"
+import "fullcalendar";
+import "fullcalendar-scheduler";
 
-picker();
+import "moment";
 
-import { momentum } from "./moment";
-
-momentum();
-
-import { fullcalendar } from "./fullcalendar";
-
-fullcalendar();
+import "jquery"
+import "jquery-ui"
 
 
 
-//====================================
 
-// import { dragging } from "./draggable";
+$(function(){
+$('#calendar').fullCalendar({
+  schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+  droppable: true,
+  drop: function(date) {
+    alert("Dropped on " + date.format());
+  }
+});
 
-// dragging();
+  $('#calendar').fullCalendar({
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,agendaWeek,agendaDay'
+      },
 
-// import { draggingTryTwo } from "./draggable";
 
-// draggingTryTwo();
 
-// import { xyz } from "./draggable";
+});
 
-// xyz();
 
-// import { initialization } from "./full_calendar";
+});
+
+$(function(){
+  $('#my-draggable').draggable({
+  revert: true,
+  revertDuration: 0
+  });
+});
